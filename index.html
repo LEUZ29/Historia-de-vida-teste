@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha História de Vida</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    
+    <!-- Bibliotecas JS (jQuery e Carrossel) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  </head>
+  <body> <!-- CORREÇÃO: Mudado de <b> para <body> -->
+
+    <!-- Botão WhatsApp Flutuante Fixo -->
+    <a class="whatsapp-link" href="https://wa.me/5531993534321?text=Conte%20mais%20sobre%20você" target="_blank">
+      <i class="fa fa-whatsapp"></i>
+    </a>
+
+    <header>
+      <h1>Minha Jornada</h1>
+      <p>Um registro de memórias e conquistas</p>
+    </header>
+
+    <main class="container">
+      <!-- Seção Sobre -->
+      <section class="section">
+        <h2>Quem Sou Eu</h2>
+        <p>
+          Germana sempre foi o porto seguro. Sua jornada é definida pelo cuidado incansável e 
+          pela capacidade de <strong>transformar</strong> pequenos gestos em grandes lições de vida. No <strong>papel</strong> de avó e bisavó, 
+          ela descobriu uma nova forma de florescer. Para os seus netos e bisnetos, Germana é o sinônimo de 
+          doçura, de histórias compartilhadas e do colo que nunca falta.<br><br>
+          Além dos laços de sangue, Germana é uma mulher profundamente querida em sua comunidade e círculos 
+          de amigos. Sua facilidade em cativar as pessoas vem de sua autenticidade e da empatia que transborda 
+          em suas conversas.<br><br>
+          <em>"A vida de Germana é um mosaico feito de carinho, resiliência e, acima de tudo, uma capacidade infinita de 
+          amar. Ela não apenas viveu os dias; ela os preencheu com significado para todos que tiveram 
+          a sorte de caminhar ao seu lado."</em>
+        </p>
+      </section>
+
+      <!-- Galeria de Fotos -->
+      <section class="section">
+        <h2>Galeria de Memórias</h2>
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="imagens/WhatsApp Image 2026-04-16 at 21.16.38.jpg.jpeg" class="active" />
+            <img src="imagens/IMG_0010.jpg" />
+            <img src="imagens/IMG_0011.jpg" />
+            <img src="imagens/Germana e Giselle (1).jpg" />
+            <img src="imagens/IMG_0013.jpg" />
+            <img src="imagens/IMG_0043.jpg" />
+            <img src="imagens/PHOTO-2026-01-18-11-02-59.jpg" />
+            <img src="imagens/PHOTO-2026-01-18-11-02-59(1).jpg" />
+            <img src="imagens/PHOTO-2026-01-18-11-02-59(2).jpg" />
+            <img src="imagens/Germana e Giselle (3).jpg" />
+            <img src="imagens/PHOTO-2026-01-18-11-03-00.jpg" />
+            <img src="imagens/Germana e Giselle (4).jpg" />
+            <img src="imagens/Germana e Cícilo.jpg" />
+            <img src="imagens/Germana e Giselle (5).jpg" />
+            <img src="imagens/Germana e Giselle (6).jpg" />
+            <img src="imagens/Germana e Giselle (7).jpg" />
+            <img src="imagens/WhatsApp Image 2026-04-16 at 21.16.39.jpg" />
+            <img src="imagens/Edwalda e Germana.jpg" />
+            <img src="imagens/Germana e Giselle (8).jpg" />
+            <img src="imagens/Germana e Giselle (9).jpg" />
+            <img src="imagens/Edwalda e Germana(1).jpg" />
+            <img src="imagens/Edwalda e Germana(2).jpg" />
+            <img src="imagens/Germana e Cícilo(1).jpg" />
+            <img src="imagens/Germana e Giselle (10).jpg" />
+            <img src="imagens/Germana e Giselle (11).jpg" />
+            <img src="imagens/Germana e Cícilo(2).jpg" />
+            <img src="imagens/Germana e Giselle (13).jpg" />
+            <img src="imagens/Germana e Giselle (14).jpg" />
+            <img src="imagens/Laisla e Germana.jpg" />
+          </div>
+          <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+          <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+      </section>
+
+      <!-- Seção de Vídeos -->
+      <section class="section">
+        <h2>Momentos em Vídeo</h2>
+        <div class="video-container">
+          <iframe src="imagens/VIDEO-2026-01-18-11-05-31.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" style="margin-top: 20px;">
+          <iframe src="imagens/WhatsApp Video(1).mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container" style="margin-top: 20px;">
+          <iframe src="imagens/WhatsApp Video(2).mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <!-- Seção de Depoimentos -->
+      <section class="section">
+        <h2><i class="fas fa-comments"></i> O Que Dizem Sobre Mim</h2>
+        
+        <!-- CORREÇÃO: Criado um único contêiner id para receber os novos relatos do script -->
+        <div id="testimonials-container" class="testimonials-grid">
+          
+          <!-- Card 1 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Você foi mais que uma irmã, foi minha confidente e melhor amiga. Agradeço a Deus por cada momento vivido. Sua alegria de viver e seu coração generoso nunca serão esquecidos. Te amo em todos os planos."</p>
+            <div class="testi-author">
+              <img src="imagens/Edwalda.jpeg" alt="Foto de Edwalda" />
+              <div class="author-info">
+                <strong>Edwalda Gomes</strong>
+                <span>Irmã</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Querida irmã, sua partida deixou um vazio indescritível, mas sua luz continua a brilhando em nossas memórias. A saudade é eterna, mas o amor que compartilhamos viverá para sempre no meu coração. Descanse em paz, minha eterna companheira."</p>
+            <div class="testi-author">
+              <img src="imagens/Edwalda e Genira.jpeg" alt="Foto de Genira" />
+              <div class="author-info">
+                <strong>Maria Genira</strong>
+                <span>Irmã</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Mãe, sua partida deixou um vazio profundo, mas o amor e as lições que você me deixou são uma luz constante que ilumina minha vida. Sua presença vive em cada detalhe, no cheiro do café e nos ensinamentos que carrego. Você nunca será esquecida."</p>
+            <div class="testi-author">
+              <img src="imagens/WhatsApp Image 2026-04-16 at 21.16.38.jpg.jpeg" alt="Foto de Gislane" />
+              <div class="author-info">
+                <strong>Gislane Fernandes</strong>
+                <span>Filha</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Onde eu estiver, estarei orando por você. Agradeço pela sua presença que só alegrias me trazia. A distância física não apaga o amor que sinto"</p>
+            <div class="testi-author">
+              <img src="imagens/Maria da Cruz.jpg" alt="Foto de Maria da Cruz" />
+              <div class="author-info">
+                <strong>Maria da Cruz</strong>
+                <span>Irmã</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Obrigada por ser minha confidente, minha conselheira e melhor amiga. Você se mantém presente através do amor que deixou no coração da nossa família."</p>
+            <div class="testi-author">
+              <img src="imagens/Rosalia.jpg" alt="Foto de Rosa" />
+              <div class="author-info">
+                <strong>Rosalia</strong>
+                <span>Irmã</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Minha querida tia, sua partida deixou uma saudade profunda, mas também um legado inestimável de amor e bondade. Agradeço por ter sido uma tia tão especial, por cada conselho e por todo o carinho que moldou quem sou. Sua luz continuará aquecendo nossos corações."</p>
+            <div class="testi-author">
+              <img src="imagens/Leo.jpeg" alt="Foto de Leo" />
+              <div class="author-info">
+                <strong>Leonardo Gomes</strong>
+                <span>Sobrinho</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Nossa família perde uma parte de sua luz, mas o laço que construímos com você, querida cunhada, jamais será apagado. Sua alegria e amor incondicional viverão para sempre em nossos corações. Descanse em paz, sabendo que deixou um legado de amor."</p>
+            <div class="testi-author">
+              <img src="imagens/Luciano.jpg" alt="Foto de Luciano" />
+              <div class="author-info">
+                <strong>Luciano Gomes</strong>
+                <span>Cunhado</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"Durante todo o período, mantivemos uma união pública, contínua e duradoura, com o objetivo de constituição de família, reconhecida por amigos e familiares."</p>
+            <div class="testi-author">
+              <img src="imagens/Cicilo.jpg" alt="Foto de Cicilo" />
+              <div class="author-info">
+                <strong>Cecilio</strong>
+                <span>Esposo</span>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- Fim da grid de depoimentos -->
+
+        <!-- Botão de Ação para novos depoimentos -->
+        <div class="add-testi">
+          <a href="https://wa.me/5531993534321?text=Gostaria%20de%20deixar%20o%20meu%20Depoimento%20sobre%20a%20Germana!" class="btn-secondary" target="_blank">
+            Enviar meu relato
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Criado por <a href="https://leuz29.github.io/MyPortfolio/">Leonardo Gomes</a> | <span class="far fa-copyright"></span> 2026 Todos os direitos reservados.</span>
+    </footer>
+
+    <!-- JavaScript para manipulação local dos cards -->
+    <script>
+      document.getElementById('homenagemForm')?.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const nome = document.getElementById('nome').value;
+        const parentesco = document.getElementById('parentesco').value;
+        const mensagem = document.getElementById('mensagem').value;
+        const fotoInput = document.getElementById('foto');
+        
+        let fotoUrl = "imagens/default-user.jpg"; 
+
+        if (fotoInput.files && fotoInput.files[0]) {
+          const reader = new FileReader();
+          reader.onload = function(event) {
+            fotoUrl = event.target.result;
+            criarCard(nome, parentesco, mensagem, fotoUrl);
+          };
+          reader.readAsDataURL(fotoInput.files[0]);
+        } else {
+          criarCard(nome, parentesco, mensagem, fotoUrl);
+        }
+
+        this.reset();
+        alert("Homenagem adicionada à tela!");
+      });
+
+      function criarCard(nome, parentesco, mensagem, foto) {
+        const container = document.getElementById('testimonials-container');
+        if(!container) return;
+        
+        const cardHTML = `
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p>"${mensagem}"</p>
+            <div class="testi-author">
+              <img src="${foto}" alt="Foto de ${nome}" />
+              <div class="author-info">
+                <strong>${nome}</strong>
+                <span>${parentesco}</span>
+              </div>
+            </div>
+          </div>
+        `;
+        container.insertAdjacentHTML('afterbegin', cardHTML);
+      }
+    </script>
+
+    <script src="script.js"></script>
+
+    <!-- Firebase Configuration -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.12.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.12.0/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyAjXNIu1Iq2lw3zhk61qzsoe3LWwkRRvo4",
+        authDomain: "memorial-germana.firebaseapp.com",
+        databaseURL: "https://memorial-germana-default-rtdb.firebaseio.com",
+        projectId: "memorial-germana",
+        storageBucket: "memorial-germana.firebasestorage.app",
+        messagingSenderId: "429434563773",
+        appId: "1:429434563773:web:912e11596f675005731bd4",
+        measurementId: "G-8KKWFEGTHG"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
